@@ -5,13 +5,16 @@ def get_prime_details():
     else:
         print("prime:")
         result = {
-            num 
-        }
+            num % i == 0 ,not_prime ,
+            num % i !=0 ,prime
+            }
         return result
 def display_prime_details(prime):
     print("number details:")
-    print("number is prime:",prime)
-    print("number is not prime:",not_prime)
+    if (num % i != 0):
+       print("number is prime:",prime)
+    else:
+       print("number is not prime:",not_prime)
 if "__name__" == "__main__":
     prime = get_prime_details()
     display_prime_details(prime)
