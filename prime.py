@@ -9,9 +9,9 @@ def get_prime_details():
 def display_prime_details(num, is_prime):
     print("Number details:")
     if is_prime:
-        print("Number is prime:", prime)
+        print("Number is prime:", num)
     else:
-        print("Number is not prime:", not_prime)
+        print("Number is not prime:", num)
 if __name__ == "__main__":
     num, prime = get_prime_details()
     display_prime_details(num, prime)
